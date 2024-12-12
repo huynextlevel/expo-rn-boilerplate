@@ -8,11 +8,10 @@
     "start": "react-native start",
     "test": "jest",
     "lint": "eslint --fix \"./src/**/*.{js,jsx,ts,tsx}\"",
-    "lint:staged": "pretty-quick --staged && lint-staged",
-    "pre-commit": "yarn lint-staged",
+    "lint-staged": "pretty-quick --staged && lint-staged",
     "prettier-check:staged": "prettier --check \"./src/**/*.{js,jsx,ts,tsx}\"",
     "prettier-format:staged": "prettier --write \"./src/**/*.{js,jsx,ts,tsx}\"",
-    "postinstall": "husky install"
+    "postinstall": "husky"
   },
   "dependencies": {
     "@react-navigation/bottom-tabs": "^6.5.20",
@@ -89,7 +88,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "lint:staged"
+      "pre-commit": "lint-staged"
     }
   },
   "engines": {
