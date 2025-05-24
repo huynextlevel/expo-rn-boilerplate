@@ -1,14 +1,10 @@
 import { persistStore } from 'redux-persist'
-import createSagaMiddleware from 'redux-saga'
 import { configureStore } from '@reduxjs/toolkit'
 
-import rootSaga from './sagas'
-// import { reducer } from './reducers'
 import persistedRootReducer from './reducers'
 import { middleware } from './middleware'
 
-const sagaMiddleware = createSagaMiddleware()
-const updateMiddleware = [...middleware, sagaMiddleware]
+const updateMiddleware = [...middleware]
 
 const store = configureStore({
   reducer: persistedRootReducer,
@@ -19,8 +15,6 @@ const store = configureStore({
     }).concat(updateMiddleware),
   devTools: process.env.NODE_ENV !== 'production',
 })
-
-sagaMiddleware.run(rootSaga)
 
 const persistor = persistStore(store, null)
 

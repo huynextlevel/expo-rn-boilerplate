@@ -1,6 +1,6 @@
 import React from 'react'
 import type { PropsWithChildren } from 'react'
-import { SafeAreaView, ScrollView, StatusBar, StyleSheet, Text, useColorScheme, View } from 'react-native'
+import { ScrollView, StatusBar, StyleSheet, Text, useColorScheme, View } from 'react-native'
 
 import {
   Colors,
@@ -47,17 +47,32 @@ function App(): React.JSX.Element {
     backgroundColor: isDarkMode ? Colors.darker : Colors.lighter,
   }
 
+  /*
+   * To keep the template simple and small we're adding padding to prevent view
+   * from rendering under the System UI.
+   * For bigger apps the recommendation is to use `react-native-safe-area-context`:
+   * https://github.com/AppAndFlow/react-native-safe-area-context
+   *
+   * You can read more about it here:
+   * https://github.com/react-native-community/discussions-and-proposals/discussions/827
+   */
+  const safePadding = '5%'
+
   return (
-    <SafeAreaView style={[backgroundStyle, { flex: 1 }]}>
+    <View style={[backgroundStyle, { flex: 1 }]}>
       <StatusBar
         barStyle={isDarkMode ? 'light-content' : 'dark-content'}
         backgroundColor={backgroundStyle.backgroundColor}
       />
-      <ScrollView contentInsetAdjustmentBehavior="automatic" style={backgroundStyle}>
-        <Header />
+      <ScrollView style={backgroundStyle}>
+        <View style={{ paddingRight: safePadding }}>
+          <Header />
+        </View>
         <View
           style={{
             backgroundColor: isDarkMode ? Colors.black : Colors.white,
+            paddingHorizontal: safePadding,
+            paddingBottom: safePadding,
           }}>
           <Section title="Step One">
             Edit <Text style={styles.highlight}>App.tsx</Text> to change this screen and then come back to see your
@@ -73,7 +88,7 @@ function App(): React.JSX.Element {
           <LearnMoreLinks />
         </View>
       </ScrollView>
-    </SafeAreaView>
+    </View>
   )
 }
 

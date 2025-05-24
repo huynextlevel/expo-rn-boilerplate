@@ -7,98 +7,48 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* rnBoilerplateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* rnBoilerplateTests.m */; };
-		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
+		11A959822DE22DFF00E66B8C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A959812DE22DFF00E66B8C /* AppDelegate.swift */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
-		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		32225F048AF5039C1F448FCD /* ExpoModulesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A2577F34548B82A4380B1A /* ExpoModulesProvider.swift */; };
-		4EF600EF84232FDE419E39F0 /* libPods-rnBoilerplate.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 154C0760F00716A2972948D2 /* libPods-rnBoilerplate.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		A51BDC308F7EAEF49D454394 /* ExpoModulesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA9B38986B6C624329A11D7 /* ExpoModulesProvider.swift */; };
 		B5D2A865D334E3979D2CEDD0 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 3837F25F4353D5156B6BD86D /* PrivacyInfo.xcprivacy */; };
-		C5ED692EA9B982AEE16F4849 /* libPods-rnBoilerplate-rnBoilerplateTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F9036B19D4606F9F40F009E /* libPods-rnBoilerplate-rnBoilerplateTests.a */; };
+		C0F5E3528C1A4B131DB028FA /* libPods-rnBoilerplate.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 81C7675747C44BC05C692E70 /* libPods-rnBoilerplate.a */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = rnBoilerplate;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		00E356EE1AD99517003FC87E /* rnBoilerplateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rnBoilerplateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* rnBoilerplateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = rnBoilerplateTests.m; sourceTree = "<group>"; };
+		11A959812DE22DFF00E66B8C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* rnBoilerplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rnBoilerplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = rnBoilerplate/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = rnBoilerplate/AppDelegate.mm; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = rnBoilerplate/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = rnBoilerplate/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = rnBoilerplate/main.m; sourceTree = "<group>"; };
 		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = rnBoilerplate/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
-		154C0760F00716A2972948D2 /* libPods-rnBoilerplate.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-rnBoilerplate.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3837F25F4353D5156B6BD86D /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = rnBoilerplate/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
-		5F9036B19D4606F9F40F009E /* libPods-rnBoilerplate-rnBoilerplateTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-rnBoilerplate-rnBoilerplateTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F7B8BC79472DAB514445191 /* Pods-rnBoilerplate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rnBoilerplate.debug.xcconfig"; path = "Target Support Files/Pods-rnBoilerplate/Pods-rnBoilerplate.debug.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = rnBoilerplate/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		8CA9B38986B6C624329A11D7 /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-rnBoilerplate-rnBoilerplateTests/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
-		99E4F8B5C4281B7CEF8BFD85 /* Pods-rnBoilerplate-rnBoilerplateTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rnBoilerplate-rnBoilerplateTests.debug.xcconfig"; path = "Target Support Files/Pods-rnBoilerplate-rnBoilerplateTests/Pods-rnBoilerplate-rnBoilerplateTests.debug.xcconfig"; sourceTree = "<group>"; };
-		BD838D4B4B9B6D047539FEB9 /* Pods-rnBoilerplate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rnBoilerplate.debug.xcconfig"; path = "Target Support Files/Pods-rnBoilerplate/Pods-rnBoilerplate.debug.xcconfig"; sourceTree = "<group>"; };
+		81C7675747C44BC05C692E70 /* libPods-rnBoilerplate.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-rnBoilerplate.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9A2577F34548B82A4380B1A /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-rnBoilerplate/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
-		E3120A97A23618FCD3A4CCC2 /* Pods-rnBoilerplate-rnBoilerplateTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rnBoilerplate-rnBoilerplateTests.release.xcconfig"; path = "Target Support Files/Pods-rnBoilerplate-rnBoilerplateTests/Pods-rnBoilerplate-rnBoilerplateTests.release.xcconfig"; sourceTree = "<group>"; };
+		EB3EDCC978ED5257A94A6A90 /* Pods-rnBoilerplate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rnBoilerplate.release.xcconfig"; path = "Target Support Files/Pods-rnBoilerplate/Pods-rnBoilerplate.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		F9C4D2C5EBD36B79A09F84C4 /* Pods-rnBoilerplate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rnBoilerplate.release.xcconfig"; path = "Target Support Files/Pods-rnBoilerplate/Pods-rnBoilerplate.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		00E356EB1AD99517003FC87E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C5ED692EA9B982AEE16F4849 /* libPods-rnBoilerplate-rnBoilerplateTests.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4EF600EF84232FDE419E39F0 /* libPods-rnBoilerplate.a in Frameworks */,
+				C0F5E3528C1A4B131DB028FA /* libPods-rnBoilerplate.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* rnBoilerplateTests */ = {
-			isa = PBXGroup;
-			children = (
-				00E356F21AD99517003FC87E /* rnBoilerplateTests.m */,
-				00E356F01AD99517003FC87E /* Supporting Files */,
-			);
-			path = rnBoilerplateTests;
-			sourceTree = "<group>";
-		};
-		00E356F01AD99517003FC87E /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				00E356F11AD99517003FC87E /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 		13B07FAE1A68108700A75B9A /* rnBoilerplate */ = {
 			isa = PBXGroup;
 			children = (
-				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
-				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
+				11A959812DE22DFF00E66B8C /* AppDelegate.swift */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
-				13B07FB71A68108700A75B9A /* main.m */,
 				13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */,
 				3837F25F4353D5156B6BD86D /* PrivacyInfo.xcprivacy */,
 			);
@@ -109,8 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				154C0760F00716A2972948D2 /* libPods-rnBoilerplate.a */,
-				5F9036B19D4606F9F40F009E /* libPods-rnBoilerplate-rnBoilerplateTests.a */,
+				81C7675747C44BC05C692E70 /* libPods-rnBoilerplate.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -127,7 +76,6 @@
 			children = (
 				13B07FAE1A68108700A75B9A /* rnBoilerplate */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* rnBoilerplateTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
@@ -142,7 +90,6 @@
 			isa = PBXGroup;
 			children = (
 				13B07F961A680F5B00A75B9A /* rnBoilerplate.app */,
-				00E356EE1AD99517003FC87E /* rnBoilerplateTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -158,27 +105,16 @@
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				BD838D4B4B9B6D047539FEB9 /* Pods-rnBoilerplate.debug.xcconfig */,
-				F9C4D2C5EBD36B79A09F84C4 /* Pods-rnBoilerplate.release.xcconfig */,
-				99E4F8B5C4281B7CEF8BFD85 /* Pods-rnBoilerplate-rnBoilerplateTests.debug.xcconfig */,
-				E3120A97A23618FCD3A4CCC2 /* Pods-rnBoilerplate-rnBoilerplateTests.release.xcconfig */,
+				7F7B8BC79472DAB514445191 /* Pods-rnBoilerplate.debug.xcconfig */,
+				EB3EDCC978ED5257A94A6A90 /* Pods-rnBoilerplate.release.xcconfig */,
 			);
 			path = Pods;
-			sourceTree = "<group>";
-		};
-		E1C3910796D19A4B30E50FB8 /* rnBoilerplateTests */ = {
-			isa = PBXGroup;
-			children = (
-				8CA9B38986B6C624329A11D7 /* ExpoModulesProvider.swift */,
-			);
-			name = rnBoilerplateTests;
 			sourceTree = "<group>";
 		};
 		ED6AC5897AB2443FB8D359CB /* ExpoModulesProviders */ = {
 			isa = PBXGroup;
 			children = (
 				BB0BD883E5B3D836FCA0F01B /* rnBoilerplate */,
-				E1C3910796D19A4B30E50FB8 /* rnBoilerplateTests */,
 			);
 			name = ExpoModulesProviders;
 			sourceTree = "<group>";
@@ -186,40 +122,18 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* rnBoilerplateTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "rnBoilerplateTests" */;
-			buildPhases = (
-				31B3D25D1C8D1D6EF48C3DAB /* [CP] Check Pods Manifest.lock */,
-				3AFD14F14BBBB633A0245152 /* [Expo] Configure project */,
-				00E356EA1AD99517003FC87E /* Sources */,
-				00E356EB1AD99517003FC87E /* Frameworks */,
-				00E356EC1AD99517003FC87E /* Resources */,
-				7879BB81FB5667F880A2D250 /* [CP] Embed Pods Frameworks */,
-				8132D3D1BB7D59AA0323FF45 /* [CP] Copy Pods Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				00E356F51AD99517003FC87E /* PBXTargetDependency */,
-			);
-			name = rnBoilerplateTests;
-			productName = rnBoilerplateTests;
-			productReference = 00E356EE1AD99517003FC87E /* rnBoilerplateTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 		13B07F861A680F5B00A75B9A /* rnBoilerplate */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "rnBoilerplate" */;
 			buildPhases = (
-				B9C8AA09CBC97ED48FD6ABF2 /* [CP] Check Pods Manifest.lock */,
+				A8A4FB0CFA68A15E2CDF936F /* [CP] Check Pods Manifest.lock */,
 				137D894E2F68CD426CE27BB7 /* [Expo] Configure project */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				4066E3E45A15FF4D5D096033 /* [CP] Embed Pods Frameworks */,
-				30551CE74F3A3FA6969CE46D /* [CP] Copy Pods Resources */,
+				1FFA57CC27DCCF9048F08932 /* [CP] Embed Pods Frameworks */,
+				9FA474220800D1373267B35B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -238,10 +152,6 @@
 			attributes = {
 				LastUpgradeCheck = 1210;
 				TargetAttributes = {
-					00E356ED1AD99517003FC87E = {
-						CreatedOnToolsVersion = 6.2;
-						TestTargetID = 13B07F861A680F5B00A75B9A;
-					};
 					13B07F861A680F5B00A75B9A = {
 						LastSwiftMigration = 1120;
 					};
@@ -261,19 +171,11 @@
 			projectRoot = "";
 			targets = (
 				13B07F861A680F5B00A75B9A /* rnBoilerplate */,
-				00E356ED1AD99517003FC87E /* rnBoilerplateTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		00E356EC1AD99517003FC87E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		13B07F8E1A680F5B00A75B9A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -322,65 +224,7 @@
 			shellPath = /bin/sh;
 			shellScript = "# This script configures Expo modules and generates the modules provider file.\nbash -l -c \"./Pods/Target\\ Support\\ Files/Pods-rnBoilerplate/expo-configure-project.sh\"\n";
 		};
-		30551CE74F3A3FA6969CE46D /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-rnBoilerplate/Pods-rnBoilerplate-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-rnBoilerplate/Pods-rnBoilerplate-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-rnBoilerplate/Pods-rnBoilerplate-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		31B3D25D1C8D1D6EF48C3DAB /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-rnBoilerplate-rnBoilerplateTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		3AFD14F14BBBB633A0245152 /* [Expo] Configure project */ = {
-			isa = PBXShellScriptBuildPhase;
-			alwaysOutOfDate = 1;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			name = "[Expo] Configure project";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# This script configures Expo modules and generates the modules provider file.\nbash -l -c \"./Pods/Target\\ Support\\ Files/Pods-rnBoilerplate-rnBoilerplateTests/expo-configure-project.sh\"\n";
-		};
-		4066E3E45A15FF4D5D096033 /* [CP] Embed Pods Frameworks */ = {
+		1FFA57CC27DCCF9048F08932 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -397,41 +241,24 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-rnBoilerplate/Pods-rnBoilerplate-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		7879BB81FB5667F880A2D250 /* [CP] Embed Pods Frameworks */ = {
+		9FA474220800D1373267B35B /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-rnBoilerplate-rnBoilerplateTests/Pods-rnBoilerplate-rnBoilerplateTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-rnBoilerplate-rnBoilerplateTests/Pods-rnBoilerplate-rnBoilerplateTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-rnBoilerplate-rnBoilerplateTests/Pods-rnBoilerplate-rnBoilerplateTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		8132D3D1BB7D59AA0323FF45 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-rnBoilerplate-rnBoilerplateTests/Pods-rnBoilerplate-rnBoilerplateTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-rnBoilerplate/Pods-rnBoilerplate-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-rnBoilerplate-rnBoilerplateTests/Pods-rnBoilerplate-rnBoilerplateTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-rnBoilerplate/Pods-rnBoilerplate-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-rnBoilerplate-rnBoilerplateTests/Pods-rnBoilerplate-rnBoilerplateTests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-rnBoilerplate/Pods-rnBoilerplate-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		B9C8AA09CBC97ED48FD6ABF2 /* [CP] Check Pods Manifest.lock */ = {
+		A8A4FB0CFA68A15E2CDF936F /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -456,92 +283,21 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		00E356EA1AD99517003FC87E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				00E356F31AD99517003FC87E /* rnBoilerplateTests.m in Sources */,
-				A51BDC308F7EAEF49D454394 /* ExpoModulesProvider.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		13B07F871A680F5B00A75B9A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
-				13B07FC11A68108700A75B9A /* main.m in Sources */,
+				11A959822DE22DFF00E66B8C /* AppDelegate.swift in Sources */,
 				32225F048AF5039C1F448FCD /* ExpoModulesProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* rnBoilerplate */;
-			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin XCBuildConfiguration section */
-		00E356F61AD99517003FC87E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 99E4F8B5C4281B7CEF8BFD85 /* Pods-rnBoilerplate-rnBoilerplateTests.debug.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = rnBoilerplateTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				OTHER_LDFLAGS = (
-					"-ObjC",
-					"-lc++",
-					"$(inherited)",
-				);
-				OTHER_SWIFT_FLAGS = "$(inherited) -D EXPO_CONFIGURATION_DEBUG";
-				PRODUCT_BUNDLE_IDENTIFIER = com.rnboilerplate.app;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rnBoilerplate.app/rnBoilerplate";
-			};
-			name = Debug;
-		};
-		00E356F71AD99517003FC87E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E3120A97A23618FCD3A4CCC2 /* Pods-rnBoilerplate-rnBoilerplateTests.release.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = rnBoilerplateTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				OTHER_LDFLAGS = (
-					"-ObjC",
-					"-lc++",
-					"$(inherited)",
-				);
-				OTHER_SWIFT_FLAGS = "$(inherited) -D EXPO_CONFIGURATION_RELEASE";
-				PRODUCT_BUNDLE_IDENTIFIER = com.rnboilerplate.app;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rnBoilerplate.app/rnBoilerplate";
-			};
-			name = Release;
-		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BD838D4B4B9B6D047539FEB9 /* Pods-rnBoilerplate.debug.xcconfig */;
+			baseConfigurationReference = 7F7B8BC79472DAB514445191 /* Pods-rnBoilerplate.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -576,7 +332,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F9C4D2C5EBD36B79A09F84C4 /* Pods-rnBoilerplate.release.xcconfig */;
+			baseConfigurationReference = EB3EDCC978ED5257A94A6A90 /* Pods-rnBoilerplate.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -770,15 +526,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "rnBoilerplateTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				00E356F61AD99517003FC87E /* Debug */,
-				00E356F71AD99517003FC87E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "rnBoilerplate" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
