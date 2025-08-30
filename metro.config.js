@@ -12,18 +12,20 @@ const jsoMetroPlugin = require('obfuscator-io-metro-plugin')({
 })
 
 const { getDefaultConfig, mergeConfig } = require('@react-native/metro-config')
-const defaultSourceExts = require('metro-config/src/defaults/defaults').sourceExts
-const defaultAssetExts = require('metro-config/src/defaults/defaults').assetExts
+const { obfuscatorPlugin } = require('obfuscator-io-metro-plugin')
+
+const defaultConfig = getDefaultConfig(__dirname)
+const { assetExts, sourceExts } = defaultConfig.resolver
+
 /**
  * Metro configuration
- * https://facebook.github.io/metro/docs/configuration
+ * https://reactnative.dev/docs/metro
  *
- * @type {import('@react-native/metro-config').MetroConfig}* @type {import('metro-config').MetroConfig}
+ * @type {import('metro-config').MetroConfig}
  */
-
-module.exports = mergeConfig(getDefaultConfig(__dirname), {
+const config = {
   transformer: {
-    babelTransformerPath: require.resolve('react-native-svg-transformer'),
+    babelTransformerPath: require.resolve('react-native-svg-transformer/react-native'),
     getTransformOptions: async () => ({
       transform: {
         experimentalImportSupport: false,
@@ -32,8 +34,10 @@ module.exports = mergeConfig(getDefaultConfig(__dirname), {
     }),
   },
   resolver: {
-    assetExts: defaultAssetExts.filter(ext => ext !== 'svg'),
-    sourceExts: [...defaultSourceExts, 'svg'],
+    assetExts: assetExts.filter(ext => ext !== 'svg'),
+    sourceExts: [...sourceExts, 'svg'],
   },
   ...jsoMetroPlugin,
-})
+}
+
+module.exports = mergeConfig(getDefaultConfig(__dirname), config)
